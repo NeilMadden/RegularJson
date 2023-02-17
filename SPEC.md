@@ -17,7 +17,7 @@ the maximum nesting of terms. The definition is inductive:
  * _Rank 0 Regular JSON_ consists of simple scalar values only:
     - The Boolean values `true` and `false`
     - `null`
-    - Numbers, limited to the range [-2**53, 2**53]. Numbers outside this range
+    - Numbers, limited to the range [-2^53, 2^53]. Numbers outside this range
       MUST be rejected.
     - Strings
  * _Rank n Regular JSON_ (for *n* > 0) consists of:
